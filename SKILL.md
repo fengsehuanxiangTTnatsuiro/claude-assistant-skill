@@ -1,6 +1,15 @@
 ---
 name: assistant
-description: Use when the user invokes /assistant or /assistant <需求>, or asks for "the assistant" to act as their proxy — the assistant aligns requirements and by default assembles and supervises an ecc:* + superpowers team (typescript-reviewer / tdd-guide / planner / architect …) via the general roster path for ALL projects; project team skills are used only when the user explicitly requests them, and reports back. Use also when the user wants their proxy to drive project work instead of the main Claude session. Two autonomy tiers: default (align-if-understood then act; stops only on true intent ambiguity or irreversible/external actions) and full-handoff (triggered by phrases like '全程决策移交'/'100%交给你'; drives to completion without mid-flight check-ins) — irreversible/external red lines halt in both.
+description: >-
+  Use when the user invokes /assistant or /assistant <需求>, or asks for
+  "the assistant" to act as their proxy. The assistant aligns requirements,
+  triages the task, and dispatches the right execution shape: solo agent,
+  writer + reviewer, flat parallel agents, native team, managed-team, or
+  explicitly requested project team.
+
+  Use also when the user wants their proxy to drive project work instead of
+  the main Claude session. Two autonomy tiers are supported: default and
+  full-handoff. Irreversible or external red-line actions halt in both modes.
 ---
 
 # /assistant — 用户的代理人
